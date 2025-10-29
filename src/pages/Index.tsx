@@ -120,7 +120,7 @@ const Index = () => {
       <div className="container max-w-6xl mx-auto px-4 py-8">
         <header className="mb-8 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent mb-2">
-            Счётчик Калорий
+            Я УмниЦа
           </h1>
           <p className="text-muted-foreground text-lg">Твой путь к здоровому питанию</p>
         </header>
