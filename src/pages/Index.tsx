@@ -116,8 +116,12 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
-      <div className="container max-w-6xl mx-auto px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 relative">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+        style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/9442ec9b-68f3-4c3f-bd5e-a5f6fb61673b.jpg)' }}
+      />
+      <div className="container max-w-6xl mx-auto px-4 py-8 relative z-10">
         <header className="mb-8 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent mb-2">
             Я УмниЦа
